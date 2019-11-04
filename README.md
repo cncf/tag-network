@@ -83,7 +83,7 @@ Clarify and further concepts of cloud native networking, traffic management and 
 - **SIG reports to TOC** - scheduled regular reporting to ToC on ongoing and completed work.
 - **Cloud Native networking whitepaper(s)** - framework document for the cloud native traffic and networking space.
 - Cloud Native Networking Patterns
-- **Network Landscape** - a deeper and category-specific project landscape.
+- **Network Landscape** - a deeper and category-specific project landscape (e.g. [service mesh landscape](https://layer5.io/landscape)).
 - **Existing project review** - review of previously adopted projects as a health check of projects in the category.
 
 # Governance &amp; Operations
