@@ -102,6 +102,9 @@ In accordance with the [elections and terms](https://github.com/cncf/toc/blob/ma
 ## Communications
 
 - Slack Channel ([#sig-network](https://app.slack.com/client/T08PSQ7BQ/CMG237Z5Z))
-- Join [SIG-Network](mailto:sig-network@lists.cncf.io) mailer at [cncf.io](https://lists.cncf.io)
-- Repo:[https://github.com/cncf/sig-network](https://github.com/cncf/sig-network)
-- Meetings: Network SIG meets the 1st and 3rd Thursday of every month at 11am Pacific on Zoom -[https://zoom.us/my/cncfsignetwork](https://zoom.us/my/cncfsignetwork)
+- Join [SIG-Network](mailto:sig-network@lists.cncf.io) mailer at [lists.cncf.io](https://lists.cncf.io)
+- Repo: [https://github.com/cncf/sig-network](https://github.com/cncf/sig-network)
+- Meetings: 
+  - Time: Network SIG meets the 1st and 3rd Thursday of every month at 11am Pacific (here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to).
+  - Location: Zoom - [https://zoom.us/my/cncfsignetwork](https://zoom.us/my/cncfsignetwork)
+  - [Meeting Minutes](https://docs.google.com/document/d/18hYemFKK_PC_KbT_TDBUgb0rknOuIhikkRxer4_bv4Q/edit#)
