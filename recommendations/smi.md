@@ -2,34 +2,19 @@
 
 ## Acceptance to CNCF Sandbox
 
-**Authors:** Lee Calcote (@lcalcote)
+**Authors:** Lee Calcote ([@lcalcote](https://twitter.com/lcalcote))
 
 ## Background
 
-**_Link to TOC PR_**
-
-https://github.com/cncf/toc/issues/337
-
-**_Link to Presentation_**
-
-Recording: SIG Network meeting (Jan 16, 2020)
-https://youtu.be/1eOrDXUrS-k
-
-Slides: https://docs.google.com/presentation/d/11MssWPEyolaZwmJfg7sKE2BwSnGsmrXR3tdCscwf-WA/edit?usp=sharing
-
-**_Link to GitHub project_**
-
-https://github.com/deislabs/smi-spec
+- **Proposal TOC PR**: [#337]](https://github.com/cncf/toc/issues/337
+- **Proposal Presentation**: SIG Network meeting recording ([Jan 16, 2020](https://youtu.be/1eOrDXUrS-k))
+- **Proposal Slides**: [Project deck](https://docs.google.com/presentation/d/11MssWPEyolaZwmJfg7sKE2BwSnGsmrXR3tdCscwf-WA/edit?usp=sharing)
+- **Link to GitHub project**: [deislabs/smi-spec](https://github.com/deislabs/smi-spec)
 
 ## Project Overview
 
 The Service Mesh Interface (SMI) is a specification for service meshes that run on Kubernetes. 
-
-It defines a common standard that can be implemented by a variety of providers. 
-
-This allows for both standardization for end-users and innovation by providers of Service Mesh Technology. 
-
-It enables flexibility and interoperability.
+It defines a common standard that can be implemented by a variety of providers. This allows for both standardization for end-users and innovation by providers of Service Mesh Technology. It enables flexibility and interoperability.
 
 This specification consists of multiple APIs:
 
@@ -37,6 +22,7 @@ This specification consists of multiple APIs:
 - [Traffic Specs](https://github.com/deislabs/smi-spec/blob/master/traffic-specs.md) - define how traffic looks on a per-protocol basis. These resources work in concert with access control and other types of policy to manage traffic at a protocol level.
 - [Traffic Split](https://github.com/deislabs/smi-spec/blob/master/traffic-split.md) - incrementally direct percentages of traffic between various services to assist in building out canary rollouts.
 - [Traffic Metrics](https://github.com/deislabs/smi-spec/blob/master/traffic-metrics.md) - expose common traffic metrics for use by tools such as dashboards and autoscalers.
+
 See the individual documents for the details. Each document outlines:
 
 - Specification
@@ -44,29 +30,26 @@ See the individual documents for the details. Each document outlines:
 - Example implementations
 - Tradeoffs
 
-
 ## Current Status
 
 __Mar 1, 2020__
 
 - Stars: 424
 - Forks: 35
-- Maintainers: x (5 Microsoft, 2 Red Hat, 1 Codit)
-- Releases: [3](https://github.com/kedacore/keda/releases)
+- Maintainers: x ( )
+- Releases: [x](https://github.com/deislabs/smi-spec/releases)
 - Commits: 109
 - Contributors: 17
 - Integrations:
-  - [Istio](https://istio.io)
   - [Consul](https://consul.io)
+  - [Istio](https://istio.io)
   - [Linkerd](https://linkerd.io)
   - [Meshery](https://meshery.io)
-  - [Prometheus](https://prometheus.io/)
+  - [Prometheus](https://prometheus.io)
 - Adopters: x current public adopters ()
 - Presentation:
-  - [KubeCon 2019 NA: KEDA: Event Driven and Serverless Containers in Kubernetes - Jeff Hollan, Microsoft](https://www.youtube.com/watch?v=ZK2SS_GXF-g)
-  - [CloudBrew 2019: Event-driven computing with Kubernetes](https://www.cloudbrew.be/2019/#session-event-driven-computing-with-kubernetes)
-  - Serverless Practitioners Summit 2020: Application Autoscaling Made Easy With Kubernetes Event-Driven Autoscaling (KEDA)
-
+  - []()
+  
 ## Future Plans
 
 # Project Scope
@@ -100,46 +83,39 @@ Security is one of our main focuses and we will keep on investing in that - This
 
 ## Value-add to the CNCF ecosystem
 
-The Kubernetes Event-driven Autoscaling (KEDA) project does not want to reinvent the wheel but build on standards instead and is complimentary to Kubernetes.
-
-From the beginning intent was open and community driven (open community standups, MIT License, non-Microsoft branded). 
-
-CNCF provides a vendor neutral home for key serverless capability.
+CNCF provides a vendor neutral home for service mesh interoperability.
 
 
 ## Alignment with other CNCF projects
 
-SMI augments and enhances many CNCF projects by adding event driven scale, including:
+SMI interoperates with these CNCF projects:
 
-- Kubernetes itself (helping drive features back into things like the HPA / Cluster autoscaler)
-- Virtual Kubelet
-- NATS
+- Kubernetes
+- Linkerd
 - Prometheus
-- Strimzi
 - Helm
 
 ## Anticipated use cases
 
-- Serverless container and FaaS scaling
-- Data processing pipelines
-- Application scaling
-- Batch processing
+- [Traffic Access Control](https://github.com/deislabs/smi-spec/blob/master/traffic-access-control.md) - 
+- [Traffic Specs](https://github.com/deislabs/smi-spec/blob/master/traffic-specs.md) - 
+- [Traffic Split](https://github.com/deislabs/smi-spec/blob/master/traffic-split.md) - 
+- [Traffic Metrics](https://github.com/deislabs/smi-spec/blob/master/traffic-metrics.md) - 
 
 ## Alignment with SIG Reference Model
 
-SIG Network
+[SIG Network](https://github.com/cncf/sig-network)
 
 ## High level architecture
 
-KEDA performs two key roles within Kubernetes. First, it acts as an agent to activate and deactivate a deployment to scale to and from zero on no events. This is one of the primary roles of the keda-operator container that runs when you install KEDA.
+_-architecture description here-_
 
-Second, KEDA acts as a Kubernetes metrics server to expose rich event data like queue length or stream lag to the horizontal pod autoscaler to drive scale out. It is up to the deployment to then consume the events directly from the source. This preserves rich event integration and enables gestures like completing or abandoning queue messages to work out of the box. The metric serving is the primary role of the keda-operator-metrics-apiserver container that runs when you install KEDA.
-
-![KEDA Architecture](https://i.imgur.com/lBVkWsH.png)
+_-architecture diagram here-_
 
 # Formal Requirements
 
-Sponsors: TBD
+SIG Sponsors: Lee Calcote
+TOC Sponsors: Matt Klein, Jeff Brewer, Michelle Noorali
 
 # CNCF IP Policy
 
@@ -149,15 +125,15 @@ Sponsors: TBD
 
 ## Cloud Native
 
-**SMI** aligns closely with the Cloud Native Computing Foundation (CNCF) mission, and is an important piece for serverless capabilities on Kubernetes. Our hope is to align and help foster and grow an inclusive community with the CNCF.
+**SMI** aligns closely with the Cloud Native Computing Foundation (CNCF) mission, and facilitates service mesh interoperability. Our hope is to align and help foster and grow an inclusive community with the CNCF.
 
 ## Project and Code Quality
 
-- CI/CD: GitHub Actions with nightly e2e tests (live cluster, live event sources) and tests per PR.
-- Deployment: Helm chart, operator SDK, or local script. ([docs](https://keda.sh/deploy/))
-- Docs: Built with Hugo and uses Netlify to generate previews in PRs
-- Design documents: https://keda.sh/concepts/overview/
+- CI/CD: CircleCI
+- Deployment:
+- Docs:
+- Project Site:
+- Design documents:
 - Benefit from CNCF:
-  - Vendor neutral home for this serverless capabilities
-  - Enhances other CNCF projects with serverless event-driven scale
-  - Important capability for serverless workloads within open governance / CNCF.
+  - Vendor neutral home for service mesh abstraction between different projects and vendors.
+  - Encouragement of open governance.
