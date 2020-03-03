@@ -6,7 +6,7 @@
 
 ## Background
 
-- **Proposal TOC PR**: [#337]](https://github.com/cncf/toc/issues/337
+- **Proposal TOC PR**: [#337  ](https://github.com/cncf/toc/issues/337) 
 - **Proposal Presentation**: SIG Network meeting recording ([Jan 16, 2020](https://youtu.be/1eOrDXUrS-k))
 - **Proposal Slides**: [Project deck](https://docs.google.com/presentation/d/11MssWPEyolaZwmJfg7sKE2BwSnGsmrXR3tdCscwf-WA/edit?usp=sharing)
 - **Link to GitHub project**: [deislabs/smi-spec](https://github.com/deislabs/smi-spec)
