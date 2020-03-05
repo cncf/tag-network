@@ -36,7 +36,7 @@ __Mar 1, 2020__
 
 - Stars: 424
 - Forks: 35
-- Maintainers: x ( )
+- Maintainers: 11 (Microsoft, Buoyant, Layer5, HashiCorp)
 - Releases: [x](https://github.com/deislabs/smi-spec/releases)
 - Commits: 109
 - Contributors: 17
@@ -48,11 +48,15 @@ __Mar 1, 2020__
   - [Prometheus](https://prometheus.io)
 - Adopters: x current public adopters ()
 - Presentation:
-  - []()
+  - [_-incomplete-_]()
   
 ## Future Plans
 
+_-incomplete-_
+
 # Project Scope
+
+_-incomplete-_
 
 ## Project Goals
 
@@ -72,19 +76,13 @@ If SMI providers want to add provider specific extensions and APIs beyond the SM
 We expect that, over time, as more functionality becomes commonly accepted as part of what it means to be a Service Mesh, those definitions will migrate into the SMI specification.
 
 ## Alignment with CNCF mission
-
-Kubernetes Event-driven Autoscaling (KEDA)'s mission is to make application autoscaling simple allowing Kubernetes users to focus on their workloads, not the scaling infrastructure. As part of that mission, we want to support as many customers as possible by being vendor neutral and are open to scale on any system.
-
-The Kubernetes Event-driven Autoscaling (KEDA) project does not want to reinvent the wheel but build on standards instead and is complimentary to Kubernetes. Next to that, we have support for CNCF projects like Prometheus and NATS by providing scalers for them as well and package our product as a Helm chart (2.x & 3.x) which is available on Helm Hub. Lastly, we are vendor-neutral by supporting all major clouds and open-source technologies like Redis.
-
-While the scaling features of Kubernetes Event-driven Autoscaling (KEDA) are important, we are a strong believer of making the product itself operable as well. By using Operator SDK we also want to allow operators to efficiently manage the infrastructure necessary to run Kubernetes Event-driven Autoscaling (KEDA) and are planning to provide a better operational experience as a whole by providing a CLI, dashboard, etc.
-
-Security is one of our main focuses and we will keep on investing in that - This is why pod identity has been one of our main focuses for 1.0 and will continue to support more identity providers over time.
+_-incomplete-_
 
 ## Value-add to the CNCF ecosystem
 
 CNCF provides a vendor neutral home for service mesh interoperability.
 
+_-incomplete-_
 
 ## Alignment with other CNCF projects
 
@@ -94,6 +92,7 @@ SMI interoperates with these CNCF projects:
 - Linkerd
 - Prometheus
 - Helm
+- _-incomplete-_
 
 ## Anticipated use cases
 
@@ -137,3 +136,10 @@ TOC Sponsors: Matt Klein, Jeff Brewer, Michelle Noorali
 - Benefit from CNCF:
   - Vendor neutral home for service mesh abstraction between different projects and vendors.
   - Encouragement of open governance.
+
+## Recommendation
+
+**SIG Network's reflections and recommendation**
+
+1. Move SMI repositories to new GitHub org
+1. _-incomplete-_
