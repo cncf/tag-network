@@ -37,7 +37,7 @@ __Mar 1, 2020__
 - Stars: 424
 - Forks: 35
 - Maintainers: 11 (Microsoft, Buoyant, Layer5, HashiCorp)
-- Releases: [x](https://github.com/deislabs/smi-spec/releases)
+- Releases: [2](https://github.com/deislabs/smi-sdk-go/releases)
 - Commits: 109
 - Contributors: 17
 - Integrations:
