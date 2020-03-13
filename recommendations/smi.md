@@ -51,7 +51,7 @@ __Mar 1, 2020__
   - [Rio](https://rio.io)
   - [Service Mesh Hub](http://servicemeshhub.io)
   
-- Adopters: 8 current public adopters
+- Adopters:
   - [Buoyant](https://buoyant.io)
   - [Containous](https://containo.us)
   - [HashiCorp](https://hashicorp.io)
