@@ -142,7 +142,7 @@ SMI interoperates with these CNCF projects:
 # Formal Requirements
 
 SIG Sponsors: Lee Calcote
-TOC Sponsors: Matt Klein, Jeff Brewer, Michelle Noorali
+TOC Sponsors: Matt Klein, Jeff Brewer, Brendan Burns
 
 # CNCF IP Policy
 
