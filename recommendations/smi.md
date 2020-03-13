@@ -48,8 +48,10 @@ __Mar 1, 2020__
   - [Prometheus](https://prometheus.io)
 - Adopters: 8 current public adopters
   - [Buoyant](https://buoyant.io)
-  - [Has
+  - [HashiCorp](https://hashicorp.io)
   - [Layer5](https://layer5.io)
+  - [Maesh]()
+  - [Meshery](https://meshery.io)
   - [Solo](https://solo.io)
 )
 - Presentation/Blog:
@@ -129,7 +131,63 @@ TOC Sponsors: Matt Klein, Jeff Brewer, Michelle Noorali
 
 # CNCF IP Policy
 
-- list of package dependencies (and their license)
+*External dependencies (including licenses):*
+While the spec itself does not have dependencies, the SMI Go SDK lists [these dependencies](https://github.com/deislabs/smi-sdk-go/blob/master/go.mod):
+
+ * https://github.com/kubernetes/client-go[github.com/kubernetes-client/go] v0.0.0-20190516163813-075b33afc74f
+ * https://github.com/stretchr/testify[github.com/stretchr/testify] v1.3.0
+ * https://gopkg.in/yaml.v2[gopkg.in/yaml.v2] v2.2.2
+ * https://github.com/kubernetes/api[k8s.io/api] v0.0.0-20181213150558-05914d821849
+ * https://github.com/kubernetes/apimachinery[k8s.io/apimachinery] v0.0.0-20181127025237-2b1284ed4c93
+ * https://github.com/kubernetes/client-go[k8s.io/client-go] v0.0.0-20181213151034-8d9ed539ba31
+ * https://github.com/kubernetes/code-generator[k8s.io/code-generator] v0.0.0-20181114232248-ae218e241252
+
+SMI Metrics lists https://github.com/deislabs/smi-metrics/blob/master/go.mod[these dependencies]:
+
+ * https://github.com/deislabs/smi-sdk-go[github.com/deislabs/smi-sdk-go] v0.1.0
+ * https://github.com/fsnotify/fsnotify[github.com/fsnotify/fsnotify] v1.4.7
+ * https://github.com/go-chi/chi[github.com/go-chi/chi] * v4.0.2+incompatible
+ * https://github.com/hellofresh/health-go[github.com/hellofresh/health-go] v2.0.2+incompatible
+ * https://github.com/improbable-eng/go-httpwares[github.com/improbable-eng/go-httpwares] v0.0.0-20190118142334-33c6690a604c
+ * https://github.com/Masterminds/sprig[github.com/masterminds/sprig] v2.18.0+incompatible
+ * https://github.com/prometheus/client_golang[github.com/prometheus/client_golang] v0.9.3-0.20190127221311-3c4408c8b829
+ * https://github.com/prometheus/common[github.com/prometheus/common] v0.3.0
+ * https://github.com/sirupsen/logrus[github.com/sirupsen/logrus] v1.4.1
+ * https://github.com/spf13/cobra[github.com/spf13/cobra] v0.0.3
+ * https://github.com/spf13/pflag[github.com/spf13/pflag] v1.0.3
+ * https://github.com/spf13/viper[github.com/spf13/viper] v1.3.2
+ * https://github.com/stretchr/testify[github.com/stretchr/testify] v1.3.0
+ * https://github.com/unrolled/render[github.com/unrolled/render] v1.0.0
+ * https://gopkg.in/yaml.v2[gopkg.in/yaml.v2] v2.2.2
+ * https://github.com/kubernetes/api[k8s.io/api] v0.0.0-20190409021203-6e4e0e4f393b
+ * https://github.com/kubernetes/apimachinery[k8s.io/apimachinery] v0.0.0-20190404173353-6a84e37a896d
+ * https://github.com/kubernetes/client-go[k8s.io/client-go] v11.0.0+incompatible
+ * https://github.com/kubernetes/klog[k8s.io/klog] v0.3.2
+
+ SMI adapter for Istio lists [these dependencies](https://github.com/deislabs/smi-adapter-istio/blob/master/Gopkg.toml):
+
+* https://github.com/coreos/prometheus-operator[github.com/coreos/prometheus-operator]
+ * https://github.com/deislabs/smi-sdk-go[github.com/deislabs/smi-sdk-go]
+ * https://github.com/evanphx/json-patch[github.com/evanphx/json-patch]
+ * https://github.com/go-openapi/spec[github.com/go-openapi/spec]
+ * https://github.com/operator-framework/operator-sdk[github.com/operator-framework/operator-sdk]
+ * https://github.com/kubernetes/api[k8s.io/api]
+ * https://github.com/kubernetes/apiextensions-apiserver[k8s.io/apiextensions-apiserver]
+ * https://github.com/kubernetes/apimachinery[k8s.io/apimachinery]
+ * https://github.com/kubernetes/client-go[k8s.io/client-go]
+ * https://github.com/kubernetes/code-generator[k8s.io/code-generator]
+ * https://github.com/kubernetes/gengo[k8s.io/gengo]
+ * https://github.com/kubernetes/kube-openapi[k8s.io/kube-openapi]
+ * https://github.com/kubernetes-sigs/controller-runtime[sigs.k8s.io/controller-runtime]
+ * https://github.com/kubernetes-sigs/controller-tools[sigs.k8s.io/controller-tools]
+
+ *Initial committers (how long working on project, companies they represent):*
+
+* https://github.com/deislabs/smi-spec/graphs/contributors
+ * https://github.com/deislabs/smi-metrics/graphs/contributors
+ * https://github.com/deislabs/smi-adapter-istio/graphs/contributors
+
+ Contributors from Buoyant and Hashicorp shaped much of the initial spec development, along with contributors from Microsoft and others on all projects. 
 
 # Other Considerations
 
@@ -140,10 +198,10 @@ TOC Sponsors: Matt Klein, Jeff Brewer, Michelle Noorali
 ## Project and Code Quality
 
 - CI/CD: CircleCI
-- Deployment:
-- Docs:
-- Project Site:
-- Design documents:
+- Deployment: none currently
+- Docs: https://github.com/deislabs/smi-spec (one in the same as the design docs)
+- Project Site: https://smi-spec.io
+- Design documents: Each of them here - https://github.com/deislabs/smi-spec
 - Benefit from CNCF:
   - Vendor neutral home for service mesh abstraction between different projects and vendors.
   - Encouragement of open governance.
@@ -153,5 +211,5 @@ TOC Sponsors: Matt Klein, Jeff Brewer, Michelle Noorali
 **SIG Network's reflections and recommendation**
 
 1. Move SMI repositories to new GitHub org
-1. Relicense to Apache v2?
-1. _-incomplete-_
+1. Relicense to Apache v2 or seek an exception.
+1. Move forward into Sandbox.
