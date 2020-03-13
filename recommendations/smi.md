@@ -46,18 +46,25 @@ __Mar 1, 2020__
   - [Linkerd](https://linkerd.io)
   - [Meshery](https://meshery.io)
   - [Prometheus](https://prometheus.io)
-- Adopters: x current public adopters
+- Adopters: 8 current public adopters
   - [Buoyant](https://buoyant.io)
+  - [Has
   - [Layer5](https://layer5.io)
   - [Solo](https://solo.io)
 )
 - Presentation/Blog:
+  - [SMI: Developer Friendly APIs for Service Mesh](https://www.youtube.com/watch?v=KXTBqzqQ_1o)
+  - [CNCF SIG Network: SMI Project Overview](https://youtu.be/1eOrDXUrS-k?t=2243)
+  - [Supercharge Your Microservices CI/CD with Service Mesh Interface and Kubernetes](https://www.youtube.com/watch?v=SMoaem3UBag)
+  - [Democratizing Service Mesh on Kubernetes](https://youtu.be/gDLD8gyd7J8)
   - [A Standard Interface for Service Meshes](https://layer5.io/blog/a-standard-interface-for-service-meshes)
-  - 
+
   
 ## Future Plans
 
-_-incomplete-_
+- Integration of traffic metrics into Kiala.
+- Meshery as the SMI spec conformance tool.
+
 
 # Project Scope
 
@@ -97,7 +104,6 @@ SMI interoperates with these CNCF projects:
 - Linkerd
 - Prometheus
 - Helm
-- _-incomplete-_
 
 ## Anticipated use cases
 
