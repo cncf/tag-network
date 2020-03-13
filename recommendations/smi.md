@@ -42,17 +42,23 @@ __Mar 1, 2020__
 - Contributors: 17
 - Integrations:
   - [Consul](https://consul.io)
+  - [Flagger](https://flagger.app)
   - [Istio](https://istio.io)
   - [Linkerd](https://linkerd.io)
+  - [Maesh](https://mae.sh)
   - [Meshery](https://meshery.io)
   - [Prometheus](https://prometheus.io)
+  - [Rio](https://rio.io)
+  - [Service Mesh Hub](http://servicemeshhub.io)
+  
 - Adopters: 8 current public adopters
   - [Buoyant](https://buoyant.io)
+  - [Containous](https://containo.us)
   - [HashiCorp](https://hashicorp.io)
   - [Layer5](https://layer5.io)
-  - [Maesh]()
-  - [Meshery](https://meshery.io)
+  - [Rancher](https://rancher.com)
   - [Solo](https://solo.io)
+  - [Weave](https://www.weave.works)
 )
 - Presentation/Blog:
   - [SMI: Developer Friendly APIs for Service Mesh](https://www.youtube.com/watch?v=KXTBqzqQ_1o)
@@ -112,9 +118,11 @@ Increase user adoption of cloud native infastructure through consistent interfac
 SMI interoperates with these CNCF projects:
 
 - Kubernetes
+- gRPC
+- Helm
 - Linkerd
 - Prometheus
-- Helm
+
 
 ## Anticipated use cases
 
@@ -216,7 +224,8 @@ SMI Metrics lists https://github.com/deislabs/smi-metrics/blob/master/go.mod[the
 ## Recommendation
 
 **SIG Network's reflections and recommendation**
+Beyond SMI's core value (not going to repeat here), has been demonstrated in projects like CNI, CSI, OpenTelemetry, and so on. SMI's repeatable patterns like that of a common init container stand to benefit the service mesh ecosystem broadly.
 
-1. Move SMI repositories to new GitHub org
-1. Relicense to Apache v2 or seek an exception.
-1. Move forward into Sandbox.
+1. Consider: Moving SMI repositories to new GitHub org.
+1. Consider: Relicensing to Apache v2 or seeking an exception.
+1. Recommend: Moving forward into Sandbox.
