@@ -36,7 +36,7 @@ __Mar 1, 2020__
 
 - Stars: 424
 - Forks: 35
-- Maintainers: 11 (Microsoft, Buoyant, Layer5, HashiCorp)
+- Maintainers: 11 (Microsoft, Buoyant, Layer5, HashiCorp, KinVolk, Weaveworks)
 - Releases: [2](https://github.com/deislabs/smi-sdk-go/releases)
 - Commits: 109
 - Contributors: 17
@@ -144,7 +144,7 @@ SMI interoperates with these CNCF projects:
 SIG Sponsors: Lee Calcote
 TOC Sponsors: Matt Klein, Jeff Brewer, Brendan Burns
 
-# CNCF IP Policy
+# CNCF IP Policy  
 
 *External dependencies (including licenses):*
 While the spec itself does not have dependencies, the SMI Go SDK lists [these dependencies](https://github.com/deislabs/smi-sdk-go/blob/master/go.mod):
