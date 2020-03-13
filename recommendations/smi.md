@@ -64,9 +64,16 @@ __Mar 1, 2020__
   
 ## Future Plans
 
-- Integration of traffic metrics into Kiala.
-- Meshery as the SMI spec conformance tool.
-
+- Progress all SMI APIs from current state (alpha) to beta/v1
+- SMI SDK for Go (github.com/deislabs/smi-sdk-go) stable release
+- Additional service mesh integrations
+  - Kuma - kuma.io
+- Additional ecosystem tooling integrations (like Flagger)
+  - Meshery - meshery.io
+  - Kiali - kiali.io
+  - Tilt - tilt.dev
+ - Conformance test suite (with Meshery)
+  - Help users & integrators see what features are supported by a given mesh
 
 # Project Scope
 
@@ -96,7 +103,9 @@ _-incomplete-_
 
 CNCF provides a vendor neutral home for service mesh interoperability.
 
-_-incomplete-_
+Encourage user adoption of cloud native infrastructure without fear of lock-in.
+
+Increase user adoption of cloud native infastructure through consistent interface.
 
 ## Alignment with other CNCF projects
 
@@ -120,9 +129,7 @@ SMI interoperates with these CNCF projects:
 
 ## High level architecture
 
-_-architecture description here-_
-
-_-architecture diagram here-_
+<a href="smi-arch.png"><img src="smi-arch.png" width="50%" /></a>
 
 # Formal Requirements
 
