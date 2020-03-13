@@ -46,9 +46,14 @@ __Mar 1, 2020__
   - [Linkerd](https://linkerd.io)
   - [Meshery](https://meshery.io)
   - [Prometheus](https://prometheus.io)
-- Adopters: x current public adopters ()
-- Presentation:
-  - [_-incomplete-_]()
+- Adopters: x current public adopters
+  - [Buoyant](https://buoyant.io)
+  - [Layer5](https://layer5.io)
+  - [Solo](https://solo.io)
+)
+- Presentation/Blog:
+  - [A Standard Interface for Service Meshes](https://layer5.io/blog/a-standard-interface-for-service-meshes)
+  - 
   
 ## Future Plans
 
@@ -56,18 +61,18 @@ _-incomplete-_
 
 # Project Scope
 
-_-incomplete-_
+Kubernetes only. Lowest common denominator service mesh functionality.
 
 ## Project Goals
 
-The goal of the SMI API is to provide a common, portable set of Service Mesh APIs which a Kubernetes user can use in a provider agnostic manner. 
+The goal of the SMI API is to provide a common, portable set of Service Mesh APIs which a Kubernetes user can use in a provider agnostic manner.
 
 In this way people can define applications that use Service Mesh technology without tightly binding to any specific implementation.
 
 ## Project Non-Goals
-It is a non-goal for the SMI project to implement a service mesh itself. 
+It is a non-goal for the SMI project to implement a service mesh itself.
 
-It merely attempts to define the common specification. 
+It merely attempts to define the common specification.
 
 Likewise it is a non-goal to define the extent of what it means to be a Service Mesh, but rather a generally useful subset. 
 
@@ -142,4 +147,5 @@ TOC Sponsors: Matt Klein, Jeff Brewer, Michelle Noorali
 **SIG Network's reflections and recommendation**
 
 1. Move SMI repositories to new GitHub org
+1. Relicense to Apache v2?
 1. _-incomplete-_
