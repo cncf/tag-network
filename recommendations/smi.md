@@ -103,7 +103,7 @@ If SMI providers want to add provider specific extensions and APIs beyond the SM
 We expect that, over time, as more functionality becomes commonly accepted as part of what it means to be a Service Mesh, those definitions will migrate into the SMI specification.
 
 ## Alignment with CNCF mission
-_-incomplete-_
+The Service Mesh Interface spec is well-aligned with the CNCF mission to make cloud native computing ubiquitous. Interoperability creates a virtuous cycle which increases adoption. SMI encourages an open source, vendor-neutral service mesh ecosystem by empowering end users to build upon ecosystem tools without needing to re-implement the underlying substrate.
 
 ## Value-add to the CNCF ecosystem
 
