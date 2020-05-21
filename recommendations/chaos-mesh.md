@@ -55,7 +55,8 @@ Does the project have a clear and well defined scope?
 
 SIG Network agrees that Chaos Mesh has a well defined scope. 
 
-Value-add to the CNCF ecosystem
+## Value-add to the CNCF ecosystem
+
 Does the project have a clear value add to the current project ecosystem? How does it relate to other projects with overlapping capabilities? 
 
 ChaosMesh is a universally applicable Chaos Engineering platform and would allow for further resiliency in CNCF projects. 
