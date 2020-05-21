@@ -36,10 +36,11 @@ Besides the versatile chaos types, it also offers Chaos Dashboard (under develop
 
 **Current Status:**
 
-* Stars: 1500+
-* Contributors: 23
-* Commits: 240+
-* Forks: 88+
+* Stars: 1700+
+* Contributors: 33
+* Commits: 330+
+* Forks: 128
+* Releases: 1 (V1.0 coming soon)
 
 ** Future Plans: ** 
 
