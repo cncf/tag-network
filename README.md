@@ -24,9 +24,10 @@ We strive to understand the fundamental characteristics of different networking 
 - Especially where these differ significantly from network systems and approaches previously commonly used in traditional enterprise data center environments.
 - Consideration for public, private, and hybrid cloud environments.
 - Network functions and services, including but not limited to, the discovery, monitoring, management, routing, load balancing, firewalling, quality of service, provided by service proxy, API gateway, service mesh, remote procedure call, coordination &amp; service discovery.
-- Provide an umbrella SIG for Networking WG and Universal Data Plane API Working Group (UDPA-WG).
+- Provide an umbrella SIG for the [Service Mesh Working Group](service-mesh-wg/readme.md) and Universal Data Plane API Working Group (UDPA-WG).
   - [Networking WG](https://github.com/cncf/wg-networking) will fold directly into SIG Network.
   - UDPA-WG will continue with existing calls and mailing list.
+  - [Service Mesh Working Group](service-mesh-wg/readme.md) will primarily convene during the SIG Network meeting times.
 - Facilitating an understanding of network abstraction APIs for meshes, proxies and other network services.
 - Influence and provide guidance on the definition of network abstraction specifications. Network SIG may review and recommend adoption.
 - Networking extends to services and workloads not running on Kubernetes. Network SIG focuses on the integration and interoperability of networking running those workloads, not on those (physical) networking systems themselves unto their own.
@@ -56,11 +57,11 @@ The area of networking interfaces with essentially all areas of the cloud native
 - CNCF Security SIG - works on the more general area of cloud-native security including authentication, authorization, encryption, accounting, auditing and related topics. Each of these topics are directly applicable and often implemented as network services. We defer as much as possible to this group to deal with general security-related issues, and liaise closely with them on how to deal with network-specific security as these are a continual area of concern.
 - CNCF App Delivery SIG - will be focussed on the development, deployment, operation and testing of cloud-native applications. We collaborate with this SIG where this pertains to Networking and Traffic, particularly around application deployment, debugging, and monitoring.
 - CNCF Storage SIG - primarily with respect to service discovery as cloud native name services as related etcd.
-- Workload Profile Definition and Measurement Project - this project aims to define an industry standard definition for workload profiles and a standard set of measures and metrics that represent those profiles with the goal of developing an open source standard benchmarking to validate these. The CNCF Network SIG will engage as and when a network-related specification or set of benchmarks is presented.
+- [Service Mesh Performance](https://smi-spec.io) - this project defines an industry standard definition for capturing service mesh performance profiles and a standard set of measures and metrics that represent those profiles with the goal of developing an open source standard index to understand these.
 - Service Mesh Interface (SMI) - is a standard interface for service meshes on Kubernetes.
 - Multi-Vendor Service Mesh Interoperation - specifies a set of API standards for enabling service mesh federation.
 
-# Responsibilities &amp; Deliverables
+# Responsibilities and Deliverables
 
 Clarify and further concepts of cloud native networking, traffic management and common design patterns and best practices of these network services. Explore definition and practicality of new cloud native networking technologies focused on serving distributed applications.
 
@@ -86,7 +87,7 @@ Clarify and further concepts of cloud native networking, traffic management and 
 - **Network Landscape** - a deeper and category-specific project landscape (e.g. [service mesh landscape](https://layer5.io/landscape)).
 - **Existing project review** - review of previously adopted projects as a health check of projects in the category.
 
-# Governance &amp; Operations
+# Governance and Operations
 
 This SIG follows the [standard operating model](https://github.com/cncf/toc/blob/master/sigs/cncf-sigs.md#operating-model) provided by the TOC unless otherwise stated here.
 
