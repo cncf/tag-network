@@ -24,7 +24,7 @@ We strive to understand the fundamental characteristics of different networking 
 - Especially where these differ significantly from network systems and approaches previously commonly used in traditional enterprise data center environments.
 - Consideration for public, private, and hybrid cloud environments.
 - Network functions and services, including but not limited to, the discovery, monitoring, management, routing, load balancing, firewalling, quality of service, provided by service proxy, API gateway, service mesh, remote procedure call, coordination &amp; service discovery.
-- Provide an umbrella SIG for the [Service Mesh Working Group](service-mesh-wg/readme.md) and Universal Data Plane API Working Group (UDPA-WG).
+- Provide an umbrella SIG for the [Service Mesh Working Group](service-mesh-wg) and Universal Data Plane API Working Group (UDPA-WG).
   - [Networking WG](https://github.com/cncf/wg-networking) will fold directly into SIG Network.
   - UDPA-WG will continue with existing calls and mailing list.
   - [Service Mesh Working Group](service-mesh-wg/readme.md) will primarily convene during the SIG Network meeting times.
