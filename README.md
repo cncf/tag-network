@@ -36,10 +36,13 @@ We strive to understand the fundamental characteristics of different networking 
 
 Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the categories of Service Mesh, API Gateway, Coordination &amp; Service Discovery, Service Proxy, Remote Procedure Call, and Cloud Native Network are considered in-scope of this SIG.
 
+- BFE
 - CNI
+- CNI Genie
 - CoreDNS
 - Envoy
 - gRPC
+- Kuma
 - Linkerd
 - NATS
 - Network Service Mesh
@@ -57,7 +60,7 @@ The area of networking interfaces with essentially all areas of the cloud native
 - CNCF Security SIG - works on the more general area of cloud-native security including authentication, authorization, encryption, accounting, auditing and related topics. Each of these topics are directly applicable and often implemented as network services. We defer as much as possible to this group to deal with general security-related issues, and liaise closely with them on how to deal with network-specific security as these are a continual area of concern.
 - CNCF App Delivery SIG - will be focussed on the development, deployment, operation and testing of cloud-native applications. We collaborate with this SIG where this pertains to Networking and Traffic, particularly around application deployment, debugging, and monitoring.
 - CNCF Storage SIG - primarily with respect to service discovery as cloud native name services as related etcd.
-- [Service Mesh Performance](https://smi-spec.io) - this project defines an industry standard definition for capturing service mesh performance profiles and a standard set of measures and metrics that represent those profiles with the goal of developing an open source standard index to understand these.
+- [Service Mesh Performance](https://smp-spec.io) - this project defines an industry standard definition for capturing service mesh performance profiles and a standard set of measures and metrics that represent those profiles with the goal of developing an open source standard index to understand these.
 - Service Mesh Interface (SMI) - is a standard interface for service meshes on Kubernetes.
 - Multi-Vendor Service Mesh Interoperation - specifies a set of API standards for enabling service mesh federation.
 
