@@ -29,15 +29,15 @@ Because it's a multi-mesh world, there are a number of service mesh abstractions
 ### Active Initiatives
 
 - [Service Mesh Interface Conformance](https://meshery.io/features/service-mesh-interface-conformance) - The scope of this initiative includes all service mesh projects participating in the Service Mesh Interface specification. [Meshery](https://meshery.io) is the service mesh conformance tool. See the project's [design specfiication](https://docs.google.com/document/d/1HL8Sk7NSLLj-9PRqoHYVIGyU6fZxUQFotrxbmfFtjwc/edit?usp=sharing).
-- [Service Mesh Performance](https://smp-spec.io) -Directly enables capturing details of infrastructure capacity, service mesh configuration, and workload metadata.
-- [Distributed Performance Analysis](http://layer5.io/projects/distributed-performance-testing) -
-Focuses on the fact that distributed systems require distributed analysis. Distributed load testing offers insight into system behaviors that arguably more accurately represent real world behaviors of services under load as that load comes from any number of sources. This project integrates [Nighthawk](https://github.com/envoyproxy/nighthawk) and Meshery.
+- [Service Mesh Performance](https://smp-spec.io) - Directly enables capturing details of infrastructure capacity, service mesh configuration, and workload metadata.
+- [GetNighthawk](https://getnighthawk.dev) -
+Focuses on the fact that distributed systems require distributed analysis. Distributed load testing offers insight into system behaviors that arguably more accurately represent real world behaviors of services under load as that load comes from any number of sources. This project integrates Nighthawk and Meshery.
 - Service Mesh Patterns - A collection of curated deployment models and common best practices of using service meshes.
 
 ## Communications
 
 - Slack Channel ([#sig-network](https://app.slack.com/client/T08PSQ7BQ/CMG237Z5Z))
-- Join [SIG-Network](mailto:sig-network@lists.cncf.io) mailer at [lists.cncf.io](https://lists.cncf.io)
+- Join [cncf-sig-network-servicemesh-wg](https://lists.cncf.io/g/cncf-sig-network-servicemesh-wg) mailer at [lists.cncf.io](https://lists.cncf.io)
 - Repo: [https://github.com/cncf/sig-network](https://github.com/cncf/sig-network)
 - Meetings: 
   - Time: Network SIG meets the 1st and 3rd Thursday of every month at 11am Pacific (here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to).
