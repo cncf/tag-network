@@ -9,23 +9,12 @@
 
 ## Project Goal
 
-[Linkerd](https://linkerd.io) is an ultralight, security-first service mesh for
-Kubernetes. Linkerd adds critical security, observability, and reliability
-features to your Kubernetes stack with no code change required.
+[Linkerd](https://linkerd.io) is an ultralight, security-first service mesh for Kubernetes. Linkerd adds critical security, observability, and reliability features to your Kubernetes stack with no code change required.
 
-Linkerd features a [control plane](https://github.com/linkerd/linkerd2) built
-in Go and a [data plane
-"micro-proxy"](https://github.com/linkerd/linkerd2-proxy) written in Rust. The
-original [1.x line](https://github.com/linkerd/linkerd) of Linkerd, written in
-Scala, is currently in maintenance mode.
+Linkerd features a [control plane](https://github.com/linkerd/linkerd2) built in Go and a [data plane "micro-proxy"](https://github.com/linkerd/linkerd2-proxy) written in Rust. The original [1.x line](https://github.com/linkerd/linkerd) of Linkerd, written in Scala, is currently in maintenance mode.
 
-Linkerd has 10,000+ GitHub stars and 150+ contributors across the various repos
-in the [Linkerd GitHub org](https://github.com/linkerd/), and 5000+ users
-registered for the [Linkerd community Slack](https://slack.linkerd.io/).
-Linkerd was [open sourced in early
-2016](https://linkerd.io/2016/02/18/linkerd-twitter-style-operability-for-microservices/)
-and [joined the CNCF as its fifth-ever project in January
-2017](https://www.cncf.io/blog/2017/01/23/linkerd-project-joins-cloud-native-computing-foundation/).
+Linkerd has 10,000+ GitHub stars and 150+ contributors across the various repos in the [Linkerd GitHub org](https://github.com/linkerd/), and 5000+ users registered for the [Linkerd community Slack](https://slack.linkerd.io/). Linkerd was [open sourced in early 2016](https://linkerd.io/2016/02/18/linkerd-twitter-style-operability-for-microservices/)
+and [joined the CNCF as its fifth-ever project in January 2017](https://www.cncf.io/blog/2017/01/23/linkerd-project-joins-cloud-native-computing-foundation/).
 It currently powers production systems around the world, including at
 Nordstrom, H-E-B, Elkjop, Microsoft, HP, and many more.
 
@@ -70,6 +59,7 @@ Linkerd collaborates with other CNCF projects, including:
 - Jaeger (shipped as part of its [jaeger extension](https://linkerd.io/2.10/tasks/extensions/) extension)
 - Contour (documented [ingress integration](https://linkerd.io/2.10/tasks/using-ingress/#contour))
 - Ambassador / Emissary-ingress (documented [ingress integration](https://linkerd.io/2.10/tasks/using-ingress/#ambassador))
+- Service Mesh Interface via CRD
 
 And, of course, Linkerd is highly coupled to Kubernetes.
 
@@ -97,15 +87,14 @@ states:
 > committee](https://linkerd.io/2021/01/28/announcing-the-linkerd-steering-committee/)
 > comprising end-users.
 
-<!-- INCOMPLETE 
-While Linkerd does not meet the letter of this requirement, it is the opinion of SIG Network that 
+<!-- INCOMPLETE
+While Linkerd does not meet the letter of this requirement, it is the opinion of SIG Network that
 -->
 
 #### Have achieved and maintained a Core Infrastructure Initiative Best Practices Badge.
 
 Per the proposal, The Linkerd project has achieved a [Core Infrastructure
-Initiative Best Practices
-Badge](https://bestpractices.coreinfrastructure.org/en/projects/4629).
+Initiative Best Practices Badge](https://bestpractices.coreinfrastructure.org/en/projects/4629).
 
 #### Have completed an independent and third party security audit with results published of similar scope and quality as the following example (including critical vulnerabilities addressed): https://github.com/envoyproxy/envoy#security-audit and all critical vulnerabilities need to be addressed before graduation.
 
@@ -184,12 +173,13 @@ June 2019.
 ## SIG Network recommendation
 
 **Open Questions**
+
 1. Published project scope - https://github.com/linkerd/rfc/issues/37
-1. Roadmap clarification - https://github.com/linkerd/linkerd2/issues/6009 
+1. Roadmap clarification - https://github.com/linkerd/linkerd2/issues/6009
 1. Linkerd mailing list for code of conduct issues? - https://github.com/linkerd/linkerd/wiki/Linkerd-code-of-conduct#moderation
 
 **Recommendations**
-1. We encourage participation in service mesh specification/standard projects: SMI and SMP
 
+1. We encourage participation in service mesh specification projects: SMI and SMP
 
 <!-- SIG Network recommends promotion of Linkerd to graduated status. -->
