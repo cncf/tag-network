@@ -28,7 +28,7 @@ Nordstrom, H-E-B, Elkjop, Microsoft, HP, and many more.
 
 ## Roadmap
 
-See [https://github.com/linkerd/linkerd2/blob/main/ROADMAP.md](https://github.com/linkerd/linkerd2/blob/main/ROADMAP.md)
+Linkerd's project [roadmap](https://github.com/linkerd/linkerd2/blob/main/ROADMAP.md) is publicly published and supplemented by milestones and associated issues in GitHub.
 
 ## Project scope
 
@@ -57,7 +57,8 @@ Linkerd collaborates with other CNCF projects, including:
 - Jaeger (shipped as part of its [jaeger extension](https://linkerd.io/2.10/tasks/extensions/) extension)
 - Contour (documented [ingress integration](https://linkerd.io/2.10/tasks/using-ingress/#contour))
 - Ambassador / Emissary-ingress (documented [ingress integration](https://linkerd.io/2.10/tasks/using-ingress/#ambassador))
-- Service Mesh Interface via CRD
+- Service Mesh Interface [via CRD](https://linkerd.io/2019/05/24/linkerd-and-smi/) with current [conformance published](https://meshery.io/smi).
+- [Service Mesh Performance](https://smp-spec.io) via Meshery
 
 And, of course, Linkerd is highly coupled to Kubernetes.
 
@@ -85,9 +86,7 @@ states:
 > committee](https://linkerd.io/2021/01/28/announcing-the-linkerd-steering-committee/)
 > comprising end-users.
 
-<!-- INCOMPLETE
-While Linkerd does not meet the letter of this requirement, it is the opinion of SIG Network that
--->
+While Linkerd does not meet the letter of this requirement, it is the opinion of SIG Network that the project upholds this requirement in spirit.
 
 #### Have achieved and maintained a Core Infrastructure Initiative Best Practices Badge.
 
