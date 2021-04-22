@@ -36,9 +36,7 @@ See [https://github.com/linkerd/linkerd2/blob/main/ROADMAP.md](https://github.co
 
 _Does the project have a clear and well defined scope?_
 
-<!-- INCOMPLETE
-SIG Network agrees that Linkerd has a well defined scope.
--->
+SIG Network agrees that Linkerd has a well defined scope. See Linkerd's [Design Principles](https://linkerd.io/design-principles/) for a characterization of project scope.
 
 ### Value-add to the CNCF ecosystem
 
@@ -170,13 +168,17 @@ Per the proposal, Linkerd completed a CNCF-sponsored [Cure53 security
 audit](https://github.com/linkerd/linkerd2/blob/main/SECURITY_AUDIT.pdf) in
 June 2019.
 
-## SIG Network recommendation
+## SIG Network Findings and Recommendation
 
-**Open Questions**
+**Addressed Questions**
 
 1. Published project scope - https://github.com/linkerd/rfc/issues/37
 1. Roadmap clarification - https://github.com/linkerd/linkerd2/issues/6009
 1. Linkerd mailing list for code of conduct issues? - https://github.com/linkerd/linkerd/wiki/Linkerd-code-of-conduct#moderation
+
+**Open Questions**
+
+1. 
 
 **Recommendations**
 
