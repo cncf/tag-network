@@ -167,7 +167,7 @@ Per the proposal, Linkerd completed a CNCF-sponsored [Cure53 security
 audit](https://github.com/linkerd/linkerd2/blob/main/SECURITY_AUDIT.pdf) in
 June 2019.
 
-## SIG Network Findings and Recommendation
+## SIG Network Conclusion
 
 **Addressed Questions**
 
@@ -179,8 +179,15 @@ June 2019.
 
 1. 
 
+
 **Recommendations**
 
-1. We encourage participation in service mesh specification projects: SMI and SMP
+1. We encourage increased participation in service mesh specification projects: SMI and SMP.
+1. While Linkerd does not meet the letter of the multi-organization maintainer requirement currently, it is the opinion of SIG Network that the project upholds this requirement in spirit, demonstrated on different occasions:
 
-<!-- SIG Network recommends promotion of Linkerd to graduated status. -->
+1. Previously, the project had a maintainer employed by Nordstrom.
+1. Robust collaboration of other organizations (i.e. Microsoft) to the degree that cross-organization collaboration fruited a new service mesh project (SMI).
+
+A historical perspective of the project's 2.x lifetime demonstrates that this requirement has been met in the past and goodwill toward it being met again, lending to our interpretation this is a point-in-time consideration, not a systemic concern.
+
+All considered, SIG Network considers this concern sufficiently diluted and recommends promotion of Linkerd to graduated status.
