@@ -188,6 +188,6 @@ June 2019.
 1. Previously, the project had a maintainer employed by Nordstrom.
 1. Robust collaboration of other organizations (i.e. Microsoft) to the degree that cross-organization collaboration fruited a new service mesh project (SMI).
 
-A historical perspective of the project's 2.x lifetime demonstrates that this requirement has been met in the past and goodwill toward it being met again, lending to our interpretation this is a point-in-time consideration, not a systemic concern.
+A historical perspective of the project's 2.x lifetime demonstrates that this requirement has been met in the past and goodwill toward it being met again, lending to our interpretation that this is a point-in-time consideration, not a systemic concern.
 
 All considered, SIG Network considers this concern sufficiently diluted and recommends promotion of Linkerd to graduated status.
