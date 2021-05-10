@@ -1,4 +1,4 @@
-# CNCF SIG Network
+# CNCF TAG Network
 
 Primary Authors: [Lee Calcote](https://twitter.com/lcalcote)
 
@@ -10,7 +10,7 @@ With the increased prevalence of microservice-based distributed systems, network
 
 # Mission Statement
 
-SIG Network&#39;s charter is inspired from the [CNCF Networking WG](https://github.com/cncf/wg-networking). With an ever steady eye to the needs of workloads and developers who create them and operators who run them, SIG Network&#39;s mission is to enable widespread and successful development, deployment and operation of resilient and intelligent network systems in cloud native environments through these activities to:
+TAG Network&#39;s charter is inspired from the [CNCF Networking WG](https://github.com/cncf/wg-networking). With an ever steady eye to the needs of workloads and developers who create them and operators who run them, TAG Network&#39;s mission is to enable widespread and successful development, deployment and operation of resilient and intelligent network systems in cloud native environments through these activities to:
 
 1. **Clarify and inform.** Provide valuable and objective information to the TOC, End Users and Projects of the CNCF regarding areas considered in-scope. Strengthen the project ecosystem to meet the needs of end users and project contributors. Educate and inform users with unbiased, effective, and practically useful information.
 2. **Collaborate and interrelate.** Effectively interface with other related groups internal and external to the CNCF and connect the dots to facilitate meaningful collaborative progression of relevant topics. Engage more communities and create an on-ramp to effective TOC contribution &amp; recognition.
@@ -24,17 +24,17 @@ We strive to understand the fundamental characteristics of different networking 
 - Especially where these differ significantly from network systems and approaches previously commonly used in traditional enterprise data center environments.
 - Consideration for public, private, and hybrid cloud environments.
 - Network functions and services, including but not limited to, the discovery, monitoring, management, routing, load balancing, firewalling, quality of service, provided by service proxy, API gateway, service mesh, remote procedure call, coordination &amp; service discovery.
-- Provide an umbrella SIG for the Service Mesh Working Group and Universal Data Plane API Working Group (UDPA-WG).
-  - [Networking WG](https://github.com/cncf/wg-networking) will fold directly into SIG Network.
+- Provide an umbrella TAG for the Service Mesh Working Group and Universal Data Plane API Working Group (UDPA-WG).
+  - [Networking WG](https://github.com/cncf/wg-networking) will fold directly into TAG Network.
   - UDPA-WG will continue with existing calls and mailing list.
-  - [Service Mesh Working Group](service-mesh-wg) will primarily convene during the SIG Network meeting times.
+  - [Service Mesh Working Group](service-mesh-wg) will primarily convene during the TAG Network meeting times.
 - Facilitating an understanding of network abstraction APIs for meshes, proxies and other network services.
-- Influence and provide guidance on the definition of network abstraction specifications. Network SIG may review and recommend adoption.
-- Networking extends to services and workloads not running on Kubernetes. Network SIG focuses on the integration and interoperability of networking running those workloads, not on those (physical) networking systems themselves unto their own.
+- Influence and provide guidance on the definition of network abstraction specifications. Network TAG may review and recommend adoption.
+- Networking extends to services and workloads not running on Kubernetes. Network TAG focuses on the integration and interoperability of networking running those workloads, not on those (physical) networking systems themselves unto their own.
 
 ### Current CNCF Network-centric Projects
 
-Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the categories of Service Mesh, API Gateway, Coordination &amp; Service Discovery, Service Proxy, Remote Procedure Call, and Cloud Native Network are considered in-scope of this SIG.
+Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the categories of Service Mesh, API Gateway, Coordination &amp; Service Discovery, Service Proxy, Remote Procedure Call, and Cloud Native Network are considered in-scope of this TAG.
 
 - BFE
 - CNI
@@ -49,7 +49,7 @@ Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the 
 
 ## Out of Scope
 
-Generally anything not considered in scope. The SIG may touch on physical networking hardware as it relates to the running of or interoperability of cloud native networking, but is not a stated focus of the SIG unto its own. See also Overlap and Relations with other Related Groups.
+Generally anything not considered in scope. The TAG may touch on physical networking hardware as it relates to the running of or interoperability of cloud native networking, but is not a stated focus of the TAG unto its own. See also Overlap and Relations with other Related Groups.
 
 # Overlap and Relations with other Groups and Projects
 
@@ -57,9 +57,9 @@ The area of networking interfaces with essentially all areas of the cloud native
 
 - Current CNCF Network-centric Projects - we maintain close communication with these projects and their communities to avoid unnecessary duplication of effort and inconsistent messaging wherever possible.
 - Kubernetes Network SIG - is focused towards Kubernetes-specific network abstractions, interfaces, and implementations of these interfaces. We maintain close communication with this Kubernetes SIG, with several individuals actively involved in both. Our aim is to avoid unnecessary duplication of effort by the two groups, and maintain clear and consistent messaging by the two groups to our end user community and projects.
-- CNCF Security SIG - works on the more general area of cloud-native security including authentication, authorization, encryption, accounting, auditing and related topics. Each of these topics are directly applicable and often implemented as network services. We defer as much as possible to this group to deal with general security-related issues, and liaise closely with them on how to deal with network-specific security as these are a continual area of concern.
-- CNCF App Delivery SIG - will be focussed on the development, deployment, operation and testing of cloud-native applications. We collaborate with this SIG where this pertains to Networking and Traffic, particularly around application deployment, debugging, and monitoring.
-- CNCF Storage SIG - primarily with respect to service discovery as cloud native name services as related etcd.
+- CNCF Security TAG - works on the more general area of cloud-native security including authentication, authorization, encryption, accounting, auditing and related topics. Each of these topics are directly applicable and often implemented as network services. We defer as much as possible to this group to deal with general security-related issues, and liaise closely with them on how to deal with network-specific security as these are a continual area of concern.
+- CNCF App Delivery TAG - will be focussed on the development, deployment, operation and testing of cloud-native applications. We collaborate with this TAG where this pertains to Networking and Traffic, particularly around application deployment, debugging, and monitoring.
+- CNCF Storage TAG - primarily with respect to service discovery as cloud native name services as related etcd.
 - [Service Mesh Performance](https://smp-spec.io) - this project defines an industry standard definition for capturing service mesh performance profiles and a standard set of measures and metrics that represent those profiles with the goal of developing an open source standard index to understand these.
 - Service Mesh Interface (SMI) - is a standard interface for service meshes on Kubernetes.
 - Multi-Vendor Service Mesh Interoperation - specifies a set of API standards for enabling service mesh federation.
@@ -84,7 +84,7 @@ Clarify and further concepts of cloud native networking, traffic management and 
 - **Proposed project review** - a pre-review of upcoming project proposed for adoption, allowing projects to have a soft review, gauge and garner CNCF interest.
   - Provide recommendations for new CNCF projects.
 - **New projects** - recommendation of sandbox projects where exploration is needed.
-- **SIG reports to TOC** - scheduled regular reporting to ToC on ongoing and completed work.
+- **TAG reports to TOC** - scheduled regular reporting to ToC on ongoing and completed work.
 - **Cloud Native networking whitepaper(s)** - framework document for the cloud native traffic and networking space.
 - Cloud Native Networking Patterns
 - **Network Landscape** - a deeper and category-specific project landscape (e.g. [service mesh landscape](https://layer5.io/landscape)).
@@ -92,7 +92,7 @@ Clarify and further concepts of cloud native networking, traffic management and 
 
 # Governance and Operations
 
-This SIG follows the [standard operating model](https://github.com/cncf/toc/blob/master/sigs/cncf-sigs.md#operating-model) provided by the TOC unless otherwise stated here.
+This TAG follows the [standard operating model](https://github.com/cncf/toc/blob/master/tags/cncf-sigs.md#operating-model) provided by the TOC unless otherwise stated here.
 
 # Operating Model
 
@@ -101,14 +101,14 @@ This SIG follows the [standard operating model](https://github.com/cncf/toc/blob
 - TOC Liaison: [Matt Klein](https://twitter.com/mattklein123)
 - Chairs: [Lee Calcote](https://twitter.com/lcalcote), [Ken Owens](https://twitter.com/kenowens12)
 
-In accordance with the [elections and terms](https://github.com/cncf/toc/blob/master/sigs/cncf-sigs.md#elections) follow the [CNCF SIG definition](https://github.com/cncf/toc/blob/master/sigs/cncf-sigs.md#elections).
+In accordance with the [elections and terms](https://github.com/cncf/toc/blob/master/tags/cncf-sigs.md#elections) follow the [CNCF TAG definition](https://github.com/cncf/toc/blob/master/tags/cncf-sigs.md#elections).
 
 ## Communications
 
-- Slack Channel ([#sig-network](https://app.slack.com/client/T08PSQ7BQ/CMG237Z5Z))
-- Join [SIG-Network](mailto:sig-network@lists.cncf.io) mailer at [lists.cncf.io](https://lists.cncf.io)
-- Repo: [https://github.com/cncf/sig-network](https://github.com/cncf/sig-network)
+- Slack Channel ([#tag-network](https://app.slack.com/client/T08PSQ7BQ/CMG237Z5Z))
+- Join [TAG-Network](mailto:tag-network@lists.cncf.io) mailer at [lists.cncf.io](https://lists.cncf.io)
+- Repo: [https://github.com/cncf/tag-network](https://github.com/cncf/tag-network)
 - Meetings: 
-  - Time: Network SIG meets the 1st and 3rd Thursday of every month at 11am Pacific (here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to).
+  - Time: Network TAG meets the 1st and 3rd Thursday of every month at 11am Pacific (here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to).
   - Location: Zoom - [https://zoom.us/my/cncfsignetwork](https://zoom.us/my/cncfsignetwork)
   - [Meeting Minutes](https://docs.google.com/document/d/18hYemFKK_PC_KbT_TDBUgb0rknOuIhikkRxer4_bv4Q/edit#)
