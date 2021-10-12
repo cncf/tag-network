@@ -25,7 +25,7 @@ Because it's a multi-mesh world, there are a number of service mesh abstractions
 1. [SMI](https://smi-spec.io) - A standard interface for service meshes on Kubernetes.
 1. [SMP](https://smp-spec.io) - A standard for describing and capturing service mesh performance.
 1. Hamlet - A set of API standards for enabling service mesh federation.
-1. [Service Mesh Patterns](https://github.com/service-mesh-patterns)
+1. [Service Mesh Patterns](https://github.com/service-mesh-patterns) -  a collection of functional examples to be used as patterns for operationalizing cloud native infrastruture and application deployments and applying best practices.
 
 ### Active Initiatives
 
