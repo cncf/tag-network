@@ -109,6 +109,6 @@ In accordance with the [elections and terms](https://github.com/cncf/toc/blob/ma
 - Join [TAG-Network](mailto:tag-network@lists.cncf.io) mailer at [lists.cncf.io](https://lists.cncf.io)
 - Repo: [https://github.com/cncf/tag-network](https://github.com/cncf/tag-network)
 - Meetings: 
-  - Time: Network TAG meets the 1st and 3rd Thursday of every month at 11am Pacific (here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to).
+  - Time: Network TAG meets the 1st and 3rd Thursday of every month at 9am Pacific (here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to).
   - Location: Zoom - [https://zoom.us/my/cncftagnetwork](https://zoom.us/my/cncftagnetwork)
   - [Meeting Minutes](https://docs.google.com/document/d/18hYemFKK_PC_KbT_TDBUgb0rknOuIhikkRxer4_bv4Q/edit#)
