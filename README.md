@@ -39,6 +39,7 @@ Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the 
 - BFE
 - CNI
 - CNI Genie
+- Contour
 - CoreDNS
 - Envoy
 - gRPC
