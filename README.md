@@ -44,6 +44,7 @@ Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the 
 - CoreDNS
 - Emissary Ingress
 - Envoy
+- Kuma
 - gRPC
 - Istio
 - Linkerd
