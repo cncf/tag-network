@@ -37,12 +37,15 @@ We strive to understand the fundamental characteristics of different networking 
 Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the categories of Service Mesh, API Gateway, Coordination &amp; Service Discovery, Service Proxy, Remote Procedure Call, and Cloud Native Network are considered in-scope of this TAG.
 
 - BFE
+- Cilium
 - CNI
 - CNI Genie
 - Contour
 - CoreDNS
+- Emissary Ingress
 - Envoy
 - gRPC
+- Istio
 - Kuma
 - Linkerd
 - NATS
