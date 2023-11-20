@@ -48,6 +48,7 @@ Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the 
 - Istio
 - Kuma
 - Linkerd
+- MetalLB
 - NATS
 - Network Service Mesh
 
