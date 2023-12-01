@@ -103,7 +103,7 @@ This TAG follows the [standard operating model](https://github.com/cncf/toc/blob
 ## Chairs:
 
 - TOC Liaison: Duffie Cooley, Ricardo Rocha
-- Chairs: [Lee Calcote](https://twitter.com/lcalcote), [Ken Owens](https://twitter.com/kenowens12), [Ed Warnicke](https://github.com/edwarnicke) 
+- Chairs: [Lee Calcote](https://twitter.com/lcalcote), [Lin Sun](https://twitter.com/linsun_unc), [Zack Butcher](https://github.com/ZackButcher) 
 
 In accordance with the [elections and terms](https://github.com/cncf/toc/blob/master/tags/cncf-sigs.md#elections) follow the [CNCF TAG definition](https://github.com/cncf/toc/blob/master/tags/cncf-sigs.md#elections).
 
