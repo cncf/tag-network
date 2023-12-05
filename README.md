@@ -110,7 +110,7 @@ In accordance with the [elections and terms](https://github.com/cncf/toc/blob/ma
 ## Communications
 
 - Slack Channel ([#tag-network](https://app.slack.com/client/T08PSQ7BQ/CMG237Z5Z))
-- Join [TAG-Network](mailto:tag-network@lists.cncf.io) mailer at [lists.cncf.io](https://lists.cncf.io)
+- Join [TAG-Network](https://lists.cncf.io/g/cncf-tag-network/) mailing list at [lists.cncf.io](https://lists.cncf.io)
 - Repo: [https://github.com/cncf/tag-network](https://github.com/cncf/tag-network)
 - Meetings: 
   - Time: Network TAG meets the 2nd and 4th Thursday of every month at 9am Pacific (here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to).
