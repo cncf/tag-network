@@ -17,16 +17,19 @@ repository:
   # role. If there are questions, please contact one of the chairs.
 collaborators:
   # TOC Liasons
-  - username: dzolotusky
+  - username: mauilion
     permission: admin
     
-  - username: lizrice
+  - username: rochaporto
     permission: admin
 
   # SIG Chairs 
   - username: leecalcote
     permission: admin
 
-  - username: kenowens12
+  - username: linsun
     permission: admin
+
+  - username: ZackButcher
+    permission: admin  
     
