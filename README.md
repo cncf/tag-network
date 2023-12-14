@@ -6,7 +6,7 @@ Reviewed and Contributed to by: [Matt Klein](https://twitter.com/mattklein123), 
 
 # Introduction
 
-With the increased prevalence of microservice-based distributed systems, networking as a discipline has never been more critical in the efficient operation of cloud native deployments. Networking primitives, including load balancing, observability, authentication, authorization, policy, rate limiting, QoS, mesh networks, legacy infrastructure bridging, and so on are now receiving substantial development and investment throughout the industry.
+With the increased prevalence of microservice-based distributed systems, networking as a discipline has never been more critical in the efficient operation of modern software deployments. Networking primitives, including load balancing, observability, authentication, authorization, policy, rate limiting, QoS, mesh networks, legacy infrastructure bridging, and so on are now receiving substantial development and investment throughout the industry.
 
 # Mission Statement
 
@@ -36,21 +36,6 @@ We strive to understand the fundamental characteristics of different networking 
 
 Generally, projects listed in the [CNCF Landscape](https://l.cncf.io) under the categories of Service Mesh, API Gateway, Coordination &amp; Service Discovery, Service Proxy, Remote Procedure Call, and Cloud Native Network are considered in-scope of this TAG.
 
-- BFE
-- Cilium
-- CNI
-- CNI Genie
-- Contour
-- CoreDNS
-- Emissary Ingress
-- Envoy
-- gRPC
-- Istio
-- Kuma
-- Linkerd
-- NATS
-- Network Service Mesh
-
 ## Out of Scope
 
 Generally anything not considered in scope. The TAG may touch on physical networking hardware as it relates to the running of or interoperability of cloud native networking, but is not a stated focus of the TAG unto its own. See also Overlap and Relations with other Related Groups.
@@ -65,7 +50,6 @@ The area of networking interfaces with essentially all areas of the cloud native
 - CNCF App Delivery TAG - will be focussed on the development, deployment, operation and testing of cloud-native applications. We collaborate with this TAG where this pertains to Networking and Traffic, particularly around application deployment, debugging, and monitoring.
 - CNCF Storage TAG - primarily with respect to service discovery as cloud native name services as related etcd.
 - [Service Mesh Performance](https://smp-spec.io) - this project defines an industry standard definition for capturing service mesh performance profiles and a standard set of measures and metrics that represent those profiles with the goal of developing an open source standard index to understand these.
-- Service Mesh Interface (SMI) - is a standard interface for service meshes on Kubernetes.
 - Multi-Vendor Service Mesh Interoperation - specifies a set of API standards for enabling service mesh federation.
 
 # Responsibilities and Deliverables
@@ -76,7 +60,7 @@ Clarify and further concepts of cloud native networking, traffic management and 
 
 - Identification of areas in need of focus in cloud native networking.
 - Ensure perspectives of users, customers, and vendors are represented.
-- Facilitate an understanding of the boundaries between related **network technologies** , including but not limited to API gateways, client libraries, service meshes, proxies, service and name directories, management, control and data planes, policy, security, and so on.
+- Facilitate an understanding of the boundaries between related **network technologies**, including but not limited to API gateways, client libraries, service meshes, proxies, service and name directories, management, control and data planes, policy, security, and so on.
 - Facilitate an understanding of **network services** and an expansion of the definition of what these are as existing types are reincarnated or new types emerge in a cloud native way.
 - Evaluation of project proposals and facilitation of their diligence. Establish a framework for evaluation.
 - Work on integrating common tooling into different projects, particularly where that tooling is a CNCF project (but the targets may not be).
@@ -100,10 +84,11 @@ This TAG follows the [standard operating model](https://github.com/cncf/toc/blob
 
 # Operating Model
 
-## Chairs:
+## Chairs
 
 - TOC Liaison: Duffie Cooley, Ricardo Rocha
-- Chairs: [Lee Calcote](https://twitter.com/lcalcote), [Lin Sun](https://twitter.com/linsun_unc), [Zack Butcher](https://github.com/ZackButcher) 
+- Chairs: [Lee Calcote](https://twitter.com/lcalcote), [Lin Sun](https://twitter.com/linsun_unc), [Zack Butcher](https://github.com/ZackButcher)
+- Tech Leads: [Nic Jackson](https://twitter.com/sheriffjackson)
 
 In accordance with the [elections and terms](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#elections) follow the [governance](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#governance).
 
@@ -112,7 +97,7 @@ In accordance with the [elections and terms](https://github.com/cncf/toc/blob/ma
 - Slack Channel ([#tag-network](https://app.slack.com/client/T08PSQ7BQ/CMG237Z5Z))
 - Join [TAG-Network](https://lists.cncf.io/g/cncf-tag-network/) mailing list at [lists.cncf.io](https://lists.cncf.io)
 - Repo: [https://github.com/cncf/tag-network](https://github.com/cncf/tag-network)
-- Meetings: 
+- Meetings:
   - Time: Network TAG meets the 2nd and 4th Thursday of every month at 9am Pacific (here's [a link](https://goo.gl/eyutah) to a public Google calendar that you can subscribe to).
   - Location: Zoom - [https://zoom.us/my/cncftagnetwork](https://zoom.us/my/cncftagnetwork)
   - [Meeting Minutes](https://docs.google.com/document/d/18hYemFKK_PC_KbT_TDBUgb0rknOuIhikkRxer4_bv4Q/edit#)
