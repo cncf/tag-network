@@ -105,7 +105,7 @@ This TAG follows the [standard operating model](https://github.com/cncf/toc/blob
 
 - TOC Liaison: Duffie Cooley, Ricardo Rocha
 - Chairs: [Lee Calcote](https://twitter.com/lcalcote), [Lin Sun](https://github.com/nicholasjackson), [Zack Butcher](https://github.com/ZackButcher)
-- Tech Lead:[Zhonghu Xu](https://github.com/hzxuzhonghu)
+- Tech Lead: [Zhonghu Xu](https://github.com/hzxuzhonghu)
 
 In accordance with the [elections and terms](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#elections) follow the [governance](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#governance).
 
