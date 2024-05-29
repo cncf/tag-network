@@ -97,7 +97,7 @@ Clarify and further concepts of cloud native networking, traffic management and 
 
 # Governance and Operations
 
-This TAG follows the [standard operating model](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#operating-model) provided by the TOC unless otherwise stated here.
+This TAG follows the [standard operating model](https://github.com/cncf/toc/tree/main/tags#operating-model) provided by the TOC unless otherwise stated here.
 
 # Operating Model
 
@@ -107,7 +107,7 @@ This TAG follows the [standard operating model](https://github.com/cncf/toc/blob
 - Chairs: [Lee Calcote](https://twitter.com/lcalcote), [Nic Jackson](https://github.com/nicholasjackson), [Zack Butcher](https://github.com/ZackButcher)
 - Tech Lead: [Zhonghu Xu](https://github.com/hzxuzhonghu)
 
-In accordance with the [elections and terms](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#elections) follow the [governance](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#governance).
+In accordance with the [elections and terms](https://github.com/cncf/toc/tree/main/tags#elections) follow the [governance](https://github.com/cncf/toc/tree/main/tags#governance).
 
 ## Communications
 
