@@ -6,7 +6,7 @@ We aim to clarify fundamental networking concepts, promote and monitor networkin
 
 Please note that the TAG Network does not work alone. It advances close communication and knowledge-sharing with other CNCF groups and external organizations to discover leading practices and promote consistent messaging. This collaborative approach ensures that TAG Network stays at the forefront of cloud-native networking advancements, and provide guidance to the broader developer community.
 
-The [TAG Network Charter](https://github.com/cncf/toc/blob/main/tags/tag-charters/network-charter.md) details the scope and responsibilities of your group.
+The [TAG Network Charter](https://github.com/cncf/toc/blob/main/tags/tag-charters/network-charter.md) details the scope and responsibilities of this group.
 
 ## Project List
 Projects under this TAG can be found in the [CNCF Landscape](https://landscape.cncf.io/?group=projects-and-products&view-mode=grid&tag=network), typically listed under Streaming &amp; Messaging, Service Mesh, Remote Procedure Call(RPC), Coordination &amp; Service Discovery, Service Proxy, API Gateway and Cloud Native Network.
