@@ -1,5 +1,4 @@
 # CNCF TAG Network
-## Introduction
 The CNCF Networking Technical Advisory Group(TAG) is dedicated to fostering innovation and best practices in cloud native networking. With the rapid rise in popularity of distributed microservices architectures, robust and efficient networking has become of prime importance for servicing critical workloads.
 
 We aim to clarify fundamental networking concepts, promote and monitor networking-related projects under CNCF, as well as facilitate collaboration and set clear standards within the cloud native ecosystem.
